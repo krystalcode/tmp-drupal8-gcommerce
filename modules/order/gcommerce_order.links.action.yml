@@ -1,0 +1,11 @@
+group_content.group_commerce_order_relate_page:
+  route_name: 'entity.group_content.group_commerce_order_relate_page'
+  title: 'Relate order'
+  appears_on:
+    - 'view.group_commerce_orders.page_1'
+
+group_content.group_commerce_order_add_page:
+  route_name: 'entity.group_content.group_commerce_order_add_page'
+  title: 'Create order'
+  appears_on:
+    - 'view.group_commerce_orders.page_1'

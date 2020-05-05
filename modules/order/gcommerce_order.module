@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Enables Group functionality for the Commerce Order module.
+ *
+ * @I Implement group access control
+ */
+
+use Drupal\commerce_order\Entity\OrderTypeInterface;
+use Drupal\group\Entity\GroupRoleInterface;
+
+/**
+ * Implements hook_ENTITY_TYPE_insert().
+ */
+function gcommerce_order_commerce_order_type_insert(
+  OrderTypeInterface $order_type
+) {
+  \Drupal::service('plugin.manager.group_content_enabler')
+    ->clearCachedDefinitions();
+}

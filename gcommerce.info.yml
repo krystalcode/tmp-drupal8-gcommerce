@@ -1,0 +1,8 @@
+name: Group Commerce
+type: module
+description: Provides integration between the Group and Commerce suite of modules.
+package: Commerce (Contrib)
+core: 8.x
+dependencies:
+  - group:group
+  - commerce:commerce
