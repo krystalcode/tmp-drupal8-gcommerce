@@ -1,0 +1,15 @@
+{
+  "name": "drupal/gcommerce",
+  "type": "drupal-module",
+  "description": "Provides integration between the Group and Commerce suite of modules.",
+  "keywords": ["Drupal"],
+  "homepage": "https://github.com/krystalcode/tmp-drupal8-gcommerce",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "krystalcode",
+      "homepage": "https://www.drupal.org/u/krystalcode",
+      "role": "Maintainer"
+    }
+  ]
+}
